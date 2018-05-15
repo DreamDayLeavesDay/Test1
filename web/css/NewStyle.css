@@ -117,13 +117,13 @@
   }
 .login-quick{
     position: fixed;
-    margin: auto auto auto  33%;;
+    margin: auto auto auto 27%;
 }
 .login-quick span{
     color: #78e0ef;
     font-family: Lato;
     font-size: 16px;
-    width: 130px;
+    width: 75px;
 }
 /*下载图标*/
 
