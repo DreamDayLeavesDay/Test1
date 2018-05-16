@@ -111,34 +111,34 @@
                                 </ul>
                             </li>
                             <li class="dropdown menu__item">
-                                <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">women's wear <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">知识 <span class="caret"></span></a>
                                 <ul class="dropdown-menu multi-column columns-3">
                                     <div class="row">
                                         <div class="col-sm-3 multi-gd-img">
                                             <ul class="multi-column-dropdown">
-                                                <li><a href="womens.html">太阳镜</a></li>
-                                                <li><a href="womens.html">太阳镜</a></li>
-                                                <li><a href="womens.html">学生镜</a></li>
-                                                <li><a href="womens.html">墨镜</a></li>
+                                                <li><a href="Knowledge.jsp">太阳镜</a></li>
+                                                <li><a href="Knowledge.jsp">太阳镜</a></li>
+                                                <li><a href="Knowledge.jsp">学生镜</a></li>
+                                                <li><a href="Knowledge.jsp">墨镜</a></li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-3 multi-gd-img">
                                             <ul class="multi-column-dropdown">
-                                                <li><a href="womens.html">Jewellery</a></li>
-                                                <li><a href="womens.html">Sunglasses</a></li>
-                                                <li><a href="womens.html">Perfumes</a></li>
+                                                <li><a href="Knowledge.jsp">Jewellery</a></li>
+                                                <li><a href="Knowledge.jsp">Sunglasses</a></li>
+                                                <li><a href="Knowledge.jsp">Perfumes</a></li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-6 multi-gd-img multi-gd-text ">
-                                            <a href="womens.html"><img src="images/woo.jpg" alt=" "/></a>
+                                            <a href="Knowledge.jsp"><img src="images/woo.jpg" alt=" "/></a>
                                         </div>
                                         <div class="clearfix"></div>
                                     </div>
                                 </ul>
                             </li>
-                            <li class=" menu__item"><a class="menu__link" href="electronics.html">Electronics</a></li>
-                            <li class=" menu__item"><a class="menu__link" href="codes.html">Short Codes</a></li>
-                            <li class=" menu__item"><a class="menu__link" href="contact.html">contact</a></li>
+                            <li class=" menu__item"><a class="menu__link" href="Member.jsp">会员</a></li>
+                            <li class=" menu__item"><a class="menu__link" href="TeamInfo.jsp">团队介绍</a></li>
+                            <li class=" menu__item"><a class="menu__link" href="Express.jsp">快递</a></li>
                         </ul>
                     </div>
                 </div>

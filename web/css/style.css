@@ -249,7 +249,7 @@ label{
     background: none;
 }
 .navbar-nav > li {
-    margin: 0 15px 0 0;
+    margin: 0 65px 0 0;
 }
 .navbar-nav > li > a {
     padding: 26px 16px;
@@ -922,7 +922,7 @@ position:relative;
 }
 .content-img-right {
     padding: 104px 50px 0px;
-    background: #f7f7f7;
+    background:#b80e0ed4;
     text-transform: uppercase;
 	min-height:343px;
 }
