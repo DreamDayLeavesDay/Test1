@@ -26,7 +26,7 @@
 <div class="header-bot">
     <div class="container">
         <div class="col-md-3 header-left">
-            <h1><a href="index.html"><img src="images/logo.jpg"></a></h1>
+            <h1><a href="index.jsp"><img src="images/logo.jpg"></a></h1>
         </div>
         <div class="col-md-6 header-middle">
             <form>
@@ -146,7 +146,7 @@
         </div>
         <div class="top_nav_right">
             <div class="cart box_1">
-                <a href="checkout.html">
+                <a href="Checkout.jsp">
                     <h3> <div class="total">
                         <i class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></i>
                         <span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
