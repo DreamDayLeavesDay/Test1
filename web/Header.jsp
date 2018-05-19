@@ -138,7 +138,7 @@
                             </li>
                             <li class=" menu__item"><a class="menu__link" href="Member.jsp">会员</a></li>
                             <li class=" menu__item"><a class="menu__link" href="TeamInfo.jsp">团队介绍</a></li>
-                            <li class=" menu__item"><a class="menu__link" href="Express.jsp">快递</a></li>
+                            <li class=" menu__item"><a class="menu__link" href="Order.jsp">晒单评论</a></li>
                         </ul>
                     </div>
                 </div>
