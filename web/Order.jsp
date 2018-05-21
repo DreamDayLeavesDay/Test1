@@ -31,15 +31,17 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
     <script src="js/jquery.easing.min.js"></script>
+
+    <%--OrderBody使用到的css--%>
+    <link href="css/common.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/commontDrying.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+
     <%--lin新加的--%>
     <link href="css/NewStyle.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/Newbootstrap.js"></script>
     <%--lin新加的--%>
-
-    <%--OrderBody使用到的css--%>
-    <link href="css/common.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/commontDrying.css" rel="stylesheet" type="text/css" media="all">
 
 </head>
 <body>

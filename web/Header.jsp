@@ -9,6 +9,14 @@
 <html>
 <head>
     <title>Title</title>
+    <style>
+        .container {
+            padding-right: 13px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    </style>
 </head>
 <body>
 <!-- header -->
