@@ -224,7 +224,7 @@ label{
 /*-- banner-top --*/
 .ban-top{
 	background:#000;
-    padding: 0px 0;
+    padding: 0px 0px;
 }
 .dropdown-menu.columns-3 {
     min-width: 700px;
