@@ -217,6 +217,10 @@
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
                                         </div>
                                         <%--//细节展示--%>
+
+
+
+
                                     </div>
                                     <span class="product-new-top">New</span>
                                 </div>
