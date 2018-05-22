@@ -9,286 +9,193 @@
 <html>
 <head>
     <title>付款</title>
+    <link rel="stylesheet" href="DDLD_CSS/global.css">
+    <link rel="stylesheet" href="DDLD_CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="DDLD_CSS/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="DDLD_CSS/styles.css">
+
 </head>
 <body>
-<!-- banner -->
-<div class="ban-top">
-    <div class="container">
-        <div class="top_nav_left">
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav menu__list">
-                            <li class="active menu__item "><a class="menu__link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
-                            <li class="dropdown menu__item">
-                                <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">men's wear <span class="caret"></span></a>
-                                <ul class="dropdown-menu multi-column columns-3">
-                                    <div class="row">
-                                        <div class="col-sm-6 multi-gd-img1 multi-gd-text ">
-                                            <a href="Mens.jsp"><img src="images/woo1.jpg" alt=" "/></a>
-                                        </div>
-                                        <div class="col-sm-3 multi-gd-img">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="Mens.jsp">Clothing</a></li>
-                                                <li><a href="Mens.jsp">Wallets</a></li>
-                                                <li><a href="Mens.jsp">Footwear</a></li>
-                                                <li><a href="Mens.jsp">Watches</a></li>
-                                                <li><a href="Mens.jsp">Accessories</a></li>
-                                                <li><a href="Mens.jsp">Bags</a></li>
-                                                <li><a href="Mens.jsp">Caps & Hats</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3 multi-gd-img">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="Mens.jsp">Jewellery</a></li>
-                                                <li><a href="Mens.jsp">Sunglasses</a></li>
-                                                <li><a href="Mens.jsp">Perfumes</a></li>
-                                                <li><a href="Mens.jsp">Beauty</a></li>
-                                                <li><a href="Mens.jsp">Shirts</a></li>
-                                                <li><a href="Mens.jsp">Sunglasses</a></li>
-                                                <li><a href="Mens.jsp">Swimwear</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li class="dropdown menu__item">
-                                <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">women's wear <span class="caret"></span></a>
-                                <ul class="dropdown-menu multi-column columns-3">
-                                    <div class="row">
-                                        <div class="col-sm-3 multi-gd-img">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="womens.html">Clothing</a></li>
-                                                <li><a href="womens.html">Wallets</a></li>
-                                                <li><a href="womens.html">Footwear</a></li>
-                                                <li><a href="womens.html">Watches</a></li>
-                                                <li><a href="womens.html">Accessories</a></li>
-                                                <li><a href="womens.html">Bags</a></li>
-                                                <li><a href="womens.html">Caps & Hats</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3 multi-gd-img">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="womens.html">Jewellery</a></li>
-                                                <li><a href="womens.html">Sunglasses</a></li>
-                                                <li><a href="womens.html">Perfumes</a></li>
-                                                <li><a href="womens.html">Beauty</a></li>
-                                                <li><a href="womens.html">Shirts</a></li>
-                                                <li><a href="womens.html">Sunglasses</a></li>
-                                                <li><a href="womens.html">Swimwear</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-6 multi-gd-img multi-gd-text ">
-                                            <a href="womens.html"><img src="images/woo.jpg" alt=" "/></a>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li class=" menu__item"><a class="menu__link" href="electronics.html">Electronics</a></li>
-                            <li class=" menu__item"><a class="menu__link" href="codes.html">Short Codes</a></li>
-                            <li class=" menu__item"><a class="menu__link" href="contact.html">contact</a></li>
-                        </ul>
+<!-- 顶部标题 -->
+<div class="bgf5 clearfix">
+    <div class="top-user">
+        <div class="inner">
+            <a class="logo" href="index.html"><img src="images/icons/logo.jpg" alt="U袋网" class="cover"></a>
+            <div class="title">购物车</div>
+        </div>
+    </div>
+</div>
+<div class="content clearfix bgf5">
+    <section class="user-center inner clearfix">
+        <div class="user-content__box clearfix bgf">
+            <div class="title">购物车</div>
+            <form action="ShopcatPay.jsp" class="shopcart-form__box" >
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th width="150">
+                            <label class="checked-label"><input type="checkbox" class="check-all"><i></i> 全选</label>
+                        </th>
+                        <th width="300">商品信息</th>
+                        <th width="150">单价</th>
+                        <th width="200">数量</th>
+                        <th width="200">现价</th>
+                        <th width="80">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">
+                            <label class="checked-label"><input type="checkbox"><i></i>
+                                <div class="img"><img src="images/temp/M-003.jpg" alt="" class="cover"></div>
+                            </label>
+                        </th>
+                        <td>
+                            <div class="name ep3">锦瑟 原创传统日常汉服男绣花交领衣裳cp情侣装春夏款</div>
+                            <div class="type c9">颜色分类：深棕色  尺码：均码</div>
+                        </td>
+                        <td>¥20.0</td>
+                        <td>
+                            <div class="cart-num__box">
+                                <input type="button" class="sub" value="-">
+                                <input type="text" class="val" value="1" maxlength="2">
+                                <input type="button" class="add" value="+">
+                            </div>
+                        </td>
+                        <td>¥20.0</td>
+                        <td><a href="">删除</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <label class="checked-label"><input type="checkbox"><i></i>
+                                <div class="img"><img src="images/temp/S-005.jpg" alt="" class="cover"></div>
+                            </label>
+                        </th>
+                        <td>
+                            <div class="name ep3">霜天月明 原创传统日常汉服男绣花交领衣裳cp春装单品</div>
+                            <div class="type c9">颜色分类：深棕色  尺码：均码</div>
+                        </td>
+                        <td>¥20.0</td>
+                        <td>
+                            <div class="cart-num__box">
+                                <input type="button" class="sub" value="-">
+                                <input type="text" class="val" value="1" maxlength="2">
+                                <input type="button" class="add" value="+">
+                            </div>
+                        </td>
+                        <td>¥20.0</td>
+                        <td><a href="">删除</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <label class="checked-label"><input type="checkbox"><i></i>
+                                <div class="img"><img src="images/temp/M-007.jpg" alt="" class="cover"></div>
+                            </label>
+                        </th>
+                        <td>
+                            <div class="name ep3">陇上乐 原创传统日常汉服男绣花单大氅大袖衫cp情侣春秋</div>
+                            <div class="type c9">颜色分类：深棕色  尺码：均码</div>
+                        </td>
+                        <td>¥20.0</td>
+                        <td>
+                            <div class="cart-num__box">
+                                <input type="button" class="sub" value="-">
+                                <input type="text" class="val" value="1" maxlength="2">
+                                <input type="button" class="add" value="+">
+                            </div>
+                        </td>
+                        <td>¥20.0</td>
+                        <td><a href="">删除</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="user-form-group tags-box shopcart-submit pull-right">
+                    <button type="submit" class="btn">提交订单</button>
+                </div>
+                <div class="checkbox shopcart-total">
+                    <label><input type="checkbox" class="check-all"><i></i> 全选</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">删除</a>
+                    <div class="pull-right">
+                        已选商品 <span>2</span> 件
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;合计（不含运费）
+                        <b class="cr">¥<span class="fz24">40.00</span></b>
                     </div>
                 </div>
-            </nav>
-        </div>
-        <div class="top_nav_right">
-            <div class="cart box_1">
-                <a href="checkout.html">
-                    <h3> <div class="total">
-                        <i class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></i>
-                        <span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
-
-                    </h3>
-                </a>
-                <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
-
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-</div>
-<!-- //banner-top -->
-<!-- banner -->
-<div class="page-head">
-    <div class="container">
-        <h3>Check Out</h3>
-    </div>
-</div>
-<!-- //banner -->
-<!-- check out -->
-<div class="checkout">
-    <div class="container">
-        <h3>My Shopping Bag</h3>
-        <div class="table-responsive checkout-right animated wow slideInUp" data-wow-delay=".5s">
-            <table class="timetable_sub">
-                <thead>
-                <tr>
-                    <th>Remove</th>
-                    <th>Product</th>
-                    <th>Quantity</th>
-                    <th>Product Name</th>
-                    <th>Price</th>
-                </tr>
-                </thead>
-                <tr class="rem1">
-                    <td class="invert-closeb">
-                        <div class="rem">
-                            <div class="close1"> </div>
-                        </div>
-                        <script>$(document).ready(function(c) {
-                            $('.close1').on('click', function(c){
-                                $('.rem1').fadeOut('slow', function(c){
-                                    $('.rem1').remove();
-                                });
-                            });
-                        });
-                        </script>
-                    </td>
-                    <td class="invert-image"><a href="Single.jsp"><img src="images/w4.png" alt=" " class="img-responsive" /></a></td>
-                    <td class="invert">
-                        <div class="quantity">
-                            <div class="quantity-select">
-                                <div class="entry value-minus">&nbsp;</div>
-                                <div class="entry value"><span>1</span></div>
-                                <div class="entry value-plus active">&nbsp;</div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="invert">Hand Bag</td>
-                    <td class="invert">$45.99</td>
-                </tr>
-                <tr class="rem2">
-                    <td class="invert-closeb">
-                        <div class="rem">
-                            <div class="close2"> </div>
-                        </div>
-                        <script>$(document).ready(function(c) {
-                            $('.close2').on('click', function(c){
-                                $('.rem2').fadeOut('slow', function(c){
-                                    $('.rem2').remove();
-                                });
-                            });
-                        });
-                        </script>
-                    </td>
-                    <td class="invert-image"><a href="Single.jsp"><img src="images/ep3.png" alt=" " class="img-responsive" /></a></td>
-                    <td class="invert">
-                        <div class="quantity">
-                            <div class="quantity-select">
-                                <div class="entry value-minus">&nbsp;</div>
-                                <div class="entry value"><span>1</span></div>
-                                <div class="entry value-plus active">&nbsp;</div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="invert">Watches</td>
-                    <td class="invert">$45.99</td>
-
-                </tr>
-                <tr class="rem3">
-                    <td class="invert-closeb">
-                        <div class="rem">
-                            <div class="close3"> </div>
-                        </div>
-                        <script>$(document).ready(function(c) {
-                            $('.close3').on('click', function(c){
-                                $('.rem3').fadeOut('slow', function(c){
-                                    $('.rem3').remove();
-                                });
-                            });
-                        });
-                        </script>
-                    </td>
-                    <td class="invert-image"><a href="Single.jsp"><img src="images/w2.png" alt=" " class="img-responsive" /></a></td>
-                    <td class="invert">
-                        <div class="quantity">
-                            <div class="quantity-select">
-                                <div class="entry value-minus">&nbsp;</div>
-                                <div class="entry value"><span>1</span></div>
-                                <div class="entry value-plus active">&nbsp;</div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="invert">Sandals</td>
-                    <td class="invert">$45.99</td>
-
-                </tr>
-                <tr class="rem4">
-                    <td class="invert-closeb">
-                        <div class="rem">
-                            <div class="close4"> </div>
-                        </div>
-                        <script>$(document).ready(function(c) {
-                            $('.close4').on('click', function(c){
-                                $('.rem4').fadeOut('slow', function(c){
-                                    $('.rem4').remove();
-                                });
-                            });
-                        });
-                        </script>
-                    </td>
-                    <td class="invert-image"><a href="Single.jsp"><img src="images/w1.png" alt=" " class="img-responsive" /></a></td>
-                    <td class="invert">
-                        <div class="quantity">
-                            <div class="quantity-select">
-                                <div class="entry value-minus">&nbsp;</div>
-                                <div class="entry value"><span>1</span></div>
-                                <div class="entry value-plus active">&nbsp;</div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="invert">Wedges</td>
-                    <td class="invert">$45.99</td>
-
-                </tr>
-
-                <!--quantity-->
                 <script>
-                    $('.value-plus').on('click', function(){
-                        var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10)+1;
-                        divUpd.text(newVal);
-                    });
-
-                    $('.value-minus').on('click', function(){
-                        var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10)-1;
-                        if(newVal>=1) divUpd.text(newVal);
+                    $(document).ready(function(){
+                        var $item_checkboxs = $('.shopcart-form__box tbody input[type="checkbox"]'),
+                            $check_all = $('.check-all');
+                        // 全选
+                        $check_all.on('change', function() {
+                            $check_all.prop('checked', $(this).prop('checked'));
+                            $item_checkboxs.prop('checked', $(this).prop('checked'));
+                        });
+                        // 点击选择
+                        $item_checkboxs.on('change', function() {
+                            var flag = true;
+                            $item_checkboxs.each(function() {
+                                if (!$(this).prop('checked')) { flag = false }
+                            });
+                            $check_all.prop('checked', flag);
+                        });
+                        // 个数限制输入数字
+                        $('input.val').onlyReg({reg: /[^0-9.]/g});
+                        // 加减个数
+                        $('.cart-num__box').on('click', '.sub,.add', function() {
+                            var value = parseInt($(this).siblings('.val').val());
+                            if ($(this).hasClass('add')) {
+                                $(this).siblings('.val').val(Math.min((value += 1),99));
+                            } else {
+                                $(this).siblings('.val').val(Math.max((value -= 1),1));
+                            }
+                        });
                     });
                 </script>
-                <!--quantity-->
-            </table>
+            </form>
         </div>
-        <div class="checkout-left">
-
-            <div class="checkout-right-basket animated wow slideInRight" data-wow-delay=".5s">
-                <a href="mens.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Back To Shopping</a>
-            </div>
-            <div class="checkout-left-basket animated wow slideInLeft" data-wow-delay=".5s">
-                <h4>Shopping basket</h4>
-                <ul>
-                    <li>Hand Bag <i>-</i> <span>$45.99</span></li>
-                    <li>Watches <i>-</i> <span>$45.99</span></li>
-                    <li>Sandals <i>-</i> <span>$45.99</span></li>
-                    <li>Wedges <i>-</i> <span>$45.99</span></li>
-                    <li>Total <i>-</i> <span>$183.96</span></li>
-                </ul>
-            </div>
-            <div class="clearfix"> </div>
-        </div>
-    </div>
+    </section>
 </div>
-<!-- //check out -->
+<!-- 右侧菜单 -->
+<div class="right-nav">
+    <ul class="r-with-gotop">
+        <li class="r-toolbar-item">
+            <a href="udai_welcome.html" class="r-item-hd">
+                <i class="iconfont icon-user" data-badge="0"></i>
+                <div class="r-tip__box"><span class="r-tip-text">用户中心</span></div>
+            </a>
+        </li>
+        <li class="r-toolbar-item">
+            <a href="udai_shopcart.html" class="r-item-hd">
+                <i class="iconfont icon-cart"></i>
+                <div class="r-tip__box"><span class="r-tip-text">购物车</span></div>
+            </a>
+        </li>
+        <li class="r-toolbar-item">
+            <a href="udai_collection.html" class="r-item-hd">
+                <i class="iconfont icon-aixin"></i>
+                <div class="r-tip__box"><span class="r-tip-text">我的收藏</span></div>
+            </a>
+        </li>
+        <li class="r-toolbar-item">
+            <a href="" class="r-item-hd">
+                <i class="iconfont icon-liaotian"></i>
+                <div class="r-tip__box"><span class="r-tip-text">联系客服</span></div>
+            </a>
+        </li>
+        <li class="r-toolbar-item">
+            <a href="issues.html" class="r-item-hd">
+                <i class="iconfont icon-liuyan"></i>
+                <div class="r-tip__box"><span class="r-tip-text">留言反馈</span></div>
+            </a>
+        </li>
+        <li class="r-toolbar-item to-top">
+            <i class="iconfont icon-top"></i>
+            <div class="r-tip__box"><span class="r-tip-text">返回顶部</span></div>
+        </li>
+    </ul>
+    <script>
+        $(document).ready(function(){ $('.to-top').toTop({position:false}) });
+    </script>
+</div>
 </body>
 </html>

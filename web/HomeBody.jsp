@@ -9,6 +9,16 @@
 <html>
 <head>
     <title></title>
+
+    <link rel="stylesheet" type="text/css" href="css/Ranking.css">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/j-accordin.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.accordion').jaccordion();
+        });
+    </script>
 </head>
 <body>
 <%--图片轮转--%>
@@ -50,13 +60,13 @@
             </div>
         </div>
         <div class="col-sm-6-left content-img-right">
-            <h3>来自不一样50%<span>折扣</span>雷迪森</h3>
+            <h3>来自不一样50%<a href="Mens.jsp" ><span >新品上市</span></a>雷迪森</h3>
         </div>
     </div>
 
     <div class="col-sm-6 content-img-left text-center">
         <div class="col-sm-6-center content-img-right">
-            <h3>买一赠一 <span> 限购</span> 暴龙</h3>
+            <h3>买一赠一 <span> 活动</span> 暴龙</h3>
         </div>
         <div class="content-grid-effect slow-zoom vertical">
             <div class="img-box"><img src="images/NewCenter2.jpg" alt="image" class="img-responsive zoom-img"></div>
@@ -75,16 +85,86 @@
 
     <div class="col-sm-6 content-img-left text-center">
         <div class="content-grid-effect slow-zoom vertical">
-            <div class="img-box"><img src="images/NewCenter3.jpg" alt="image" class="img-responsive zoom-img"></div>
-            <div class="info-box">
-                <div class="info-content simpleCart_shelfItem">
-                    <h4>学生镜</h4>
-                    <span class="separator"></span>
-                    <p><span class="item_price">150RMB</span></p>
-                    <span class="separator"></span>
-                    <a class="item_add hvr-outline-out button2" href="#">add to cart </a>
+            <div class="accordion_container">
+
+                <div class="buttomtitle"></div>
+
+                <div class="accordion">
+
+                    <div class="first current">
+                        <div class="content">
+                            <img src="images/shouji_buttom1.jpg" />
+                            <div class="word" >
+                                <p>价格：<em style="color:#F00;"><strong>￥6088</strong></em></p><br />
+                                <p><a href="#">国强宏利机吾大世</a></p>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <span><img src="images/tea1.jpg" /></span>
+                            <strong><a href="#" target="_blank">苹果 iPhone 6 Plus</a></strong>
+                        </div>
+                    </div>
+
+                    <div class="second">
+                        <div class="content second">
+                            <a href="#" target="_blank"><img src="images/shouji_buttom2.jpg" /></a>
+                            <div class="word" >
+                                <p>价格：<em style="color:#F00;"><strong>￥2999</strong></em></p><br />
+                                <p><a href="#">盛旺鸿运电脑经营</a></p>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <span><img src="images/tea2.jpg" /></span>
+                            <strong><a href="#" target="_blank">OPPO R5</a></strong>
+                        </div>
+                    </div>
+
+                    <div class="third">
+                        <div class="content third">
+                            <a href="#" target="_blank"><img src="images/shouji_buttom3.jpg" /></a>
+                            <div class="word" >
+                                <p>价格：<em style="color:#F00;"><strong>￥4999</strong></em></p><br />
+                                <p><a href="#">八一数码手机专营</a></p>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <span><img src="images/tea3.jpg" /></span>
+                            <strong><a href="#" target="_blank">索尼Xperia Z3</a></strong>
+                        </div>
+                    </div>
+
+                    <div class="four">
+                        <div class="content four">
+                            <a href="#" target="_blank"><img src="images/shouji_buttom4.jpg" /></a>
+                            <div class="word" >
+                                <p>价格：<em style="color:#F00;"><strong>￥5399</strong></em></p><br />
+                                <p><a href="#">八一数码手机专营</a></p>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <span><img src="images/tea4.jpg" /></span>
+                            <strong><a href="#" target="_blank">三星GALAXY Note4</a></strong>
+                        </div>
+                    </div>
+
+                    <div class="file">
+                        <div class="content file">
+                            <a href="#" target="_blank"><img src="images/shouji_buttom5.jpg" /></a>
+                            <div class="word" >
+                                <p>价格：<em style="color:#F00;"><strong>￥999</strong></em></p><br />
+                                <p><a href="#">宏达手机旗舰店</a></p>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <span><img src="images/tea5.jpg" /></span>
+                            <strong><a href="#" target="_blank">中兴V5 Max</a></strong>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+
+        </div>
         </div>
         <div class="col-sm-6-right content-img-right">
             <h3>新人优惠 <span> 限购</span> 学生眼镜</h3>
@@ -137,6 +217,10 @@
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
                                         </div>
                                         <%--//细节展示--%>
+
+
+
+
                                     </div>
                                     <span class="product-new-top">New</span>
                                 </div>

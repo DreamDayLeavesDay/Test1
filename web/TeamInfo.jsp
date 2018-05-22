@@ -36,6 +36,8 @@
     <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/Newbootstrap.js"></script>
     <%--自己新加的--%>
+
+
 </head>
 <body>
 <jsp:include page="Header.jsp"></jsp:include>

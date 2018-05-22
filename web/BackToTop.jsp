@@ -9,10 +9,54 @@
 <html>
 <head>
     <title>Back</title>
+    <script type="text/javascript" src="js/global.js"></script>
+    <link rel="stylesheet" href="DDLD_CSS/iconfont.css">
+    <link rel="stylesheet" href="DDLD_CSS/global.css">
+    <link rel="stylesheet" href="DDLD_CSS/styles.css">
 </head>
 <body>
-<%--返回顶部--%>
-<div id="JS_back_to_top" class="back_to_top"><a href="#" title="返回顶部" id="JS_back_to_top_a"></a></div>
-<%--返回顶部--%>
+
+<!-- 右侧菜单 -->
+<div class="right-nav">
+    <ul class="r-with-gotop">
+        <li class="r-toolbar-item">
+            <a href="Personal_Center.jsp" class="r-item-hd">
+                <i class="iconfont icon-user" data-badge="0"></i>
+                <div class="r-tip__box"><span class="r-tip-text">用户中心</span></div>
+            </a>
+        </li>
+        <li class="r-toolbar-item">
+            <a href="ShopcatPay.jsp" class="r-item-hd">
+                <i class="iconfont icon-cart"></i>
+                <div class="r-tip__box"><span class="r-tip-text">购物车</span></div>
+            </a>
+        </li>
+        <li class="r-toolbar-item">
+            <a href="udai_collection.html" class="r-item-hd">
+                <i class="iconfont icon-aixin"></i>
+                <div class="r-tip__box"><span class="r-tip-text">我的收藏</span></div>
+            </a>
+        </li>
+        <li class="r-toolbar-item">
+            <a href="" class="r-item-hd">
+                <i class="iconfont icon-liaotian"></i>
+                <div class="r-tip__box"><span class="r-tip-text">联系客服</span></div>
+            </a>
+        </li>
+        <li class="r-toolbar-item">
+            <a href="issues.html" class="r-item-hd">
+                <i class="iconfont icon-liuyan"></i>
+                <div class="r-tip__box"><span class="r-tip-text">留言反馈</span></div>
+            </a>
+        </li>
+        <li class="r-toolbar-item to-top">
+            <i class="iconfont icon-top"></i>
+            <div class="r-tip__box"><span class="r-tip-text">返回顶部</span></div>
+        </li>
+    </ul>
+    <script>
+        $(document).ready(function(){ $('.to-top').toTop({position:false}) });
+    </script>
+</div>
 </body>
 </html>

@@ -1,15 +1,14 @@
 <%--
   Created by IntelliJ IDEA.
   User: 纷呈
-  Date: 2018/5/13
-  Time: 21:39
+  Date: 2018/5/17
+  Time: 20:00
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Mens</title>
-
+    <title>支付</title>
 
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,15 +36,15 @@
     <link href="css/NewStyle.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/Newbootstrap.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+    <link rel="stylesheet" href="DDLD_CSS/global.css">
+    <link rel="stylesheet" href="DDLD_CSS/styles.css">
+    <link rel="stylesheet" href="DDLD_CSS/iconfont.css">
     <%--自己新加的--%>
-    <link href="css/huangzhiliang.css" rel="stylesheet" type="text/css" media="all">
-    <script type="text/javascript" src="js/huangzhiliang.js"></script>
 </head>
 <body>
 <jsp:include page="Header.jsp"></jsp:include>
-<%--mens的Body--%>
-<jsp:include page="MensBody.jsp"></jsp:include>
-<%--mens的Body--%>
+<jsp:include page="ShopcatPayBody.jsp"></jsp:include>
 <jsp:include page="Footer.jsp"></jsp:include>
 <jsp:include page="Login.jsp"></jsp:include>
 <jsp:include page="BackToTop.jsp"></jsp:include>
