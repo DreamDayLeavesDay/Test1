@@ -38,8 +38,7 @@
     <%--自己新加的--%>
 
     <%--knowledge页面的css--%>
-    <link href="css/knowledge/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/knowledge/ld-style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/knowledge/ld-style.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>

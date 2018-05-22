@@ -132,7 +132,7 @@
                             <li class="dropdown menu__item">
                                 <a class="menu__link" href="Mens.jsp">新品上市</a>
                             </li>
-                            <li class=" menu__item"><a class="menu__link" href="TeamInfo.jsp">知识百科</a></li>
+                            <li class=" menu__item"><a class="menu__link" href="Knowledge.jsp">眼镜百科</a></li>
                             <li class=" menu__item"><a class="menu__link" href="Order.jsp">晒单评论</a></li>
                         </ul>
                     </div>
