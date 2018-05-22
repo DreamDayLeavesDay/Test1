@@ -2039,7 +2039,7 @@ img.zoom-img {
 	background-size: cover;
 	background-position: center;
 }
-.pay-method__img.alipay {background-image: url(../images/icons/alipay.gif)}
+.pay-method__img.alipay {background-image: url(../../images/icons/alipay.gif)}
 .pay-method__img.wechat {background-image: url(../images/icons/wechat.gif)}
 .pay-method-box input[type="radio"]:checked + .pay-method__img {border-color: #b31e22}
 .tags-box .btn {width: 125px}

@@ -36,6 +36,11 @@
     <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/Newbootstrap.js"></script>
     <%--自己新加的--%>
+
+    <%--knowledge页面的css--%>
+    <link href="css/knowledge/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/knowledge/ld-style.css" rel="stylesheet" type="text/css" media="all">
+
 </head>
 <body>
 <jsp:include page="Header.jsp"></jsp:include>
