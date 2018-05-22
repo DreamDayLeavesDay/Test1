@@ -9,15 +9,61 @@
 <html>
 <head>
     <title>Title</title>
+    <script type="text/javascript">
+        window.onload=function(){
+            setInterval(function(){
+                var date=new Date();
+                var year=date.getFullYear(); //获取当前年份
+                var mon=date.getMonth()+1; //获取当前月份
+                var da=date.getDate(); //获取当前日
+                var day=date.getDay(); //获取当前星期几
+                var h=date.getHours(); //获取小时
+                var m=date.getMinutes(); //获取分钟
+                var s=date.getSeconds(); //获取秒
+                var d=document.getElementById('Date');
+                switch(day){
+                    case 0:
+                        day = "日";
+                        break;
+                    case 1:
+                        day = "一";
+                        break;
+                    case 2:
+                        day = "二";
+                        break;
+                    case 3:
+                        day = "三";
+                        break;
+                    case 4:
+                        day = "四";
+                        break;
+                    case 5:
+                        day = "五";
+                        break;
+                    case 6:
+                        day = "六";
+                        break;
+                }
+                d.innerHTML='  '+year+'年'+mon+'月'+da+'日'+'    '+'星期'+day+' '+h+':'+m+':'+s;  },1000)  }
+    </script>
+    <style>
+
+        #dd{
+            float: left;
+        }
+        .top-container{
+            padding-left: 25%;
+        }
+    </style>
 </head>
 <body>
 <!-- header -->
 <div class="header">
     <div class="container">
         <ul>
-            <li><span class="glyphicon glyphicon-time" aria-hidden="true"></span>次日送达</li>
+            <li><span class="glyphicon glyphicon-time" aria-hidden="true" id="dd"></span><div id="Date"></div></li>
             <li><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>包邮</li>
-            <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">info@example.com</a></li>
+            <li> <span class="glyphicon glyphicon-earphone" aria-hidden="true" style="color:  #fda30e;"></span></span><a href="">138765612626</a></li>
         </ul>
     </div>
 </div>
@@ -66,7 +112,7 @@
 <!-- //header-bot -->
 <!-- banner -->
 <div class="ban-top">
-    <div class="container">
+    <div class="top-container">
         <div class="top_nav_left">
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
@@ -84,67 +130,16 @@
                         <ul class="nav navbar-nav menu__list">
                             <li class="active menu__item menu__item--current"><a class="menu__link" href="index.jsp">主页 <span class="sr-only">(current)</span></a></li>
                             <li class="dropdown menu__item">
-                                <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">新款上市<span class="caret"></span></a>
-                                <ul class="dropdown-menu multi-column columns-3">
-                                    <div class="row">
-                                        <div class="col-sm-6 multi-gd-img1 multi-gd-text ">
-                                            <a href="Mens.jsp"><img src="images/woo1.jpg" alt=" "/></a>
-                                        </div>
-                                        <div class="col-sm-3 multi-gd-img">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="Mens.jsp">老花镜</a></li>
-                                                <li><a href="Mens.jsp">太阳镜</a></li>
-                                                <li><a href="Mens.jsp">学生镜</a></li>
-                                                <li><a href="Mens.jsp">墨镜</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3 multi-gd-img">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="Mens.jsp">镜片</a></li>
-                                                <li><a href="Mens.jsp">镜框</a></li>
-                                                <li><a href="Mens.jsp">镜盒</a></li>
-                                                <li><a href="Mens.jsp">镜布</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </ul>
+                                <a class="menu__link" href="Mens.jsp">新品上市</a>
                             </li>
-                            <li class="dropdown menu__item">
-                                <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">知识 <span class="caret"></span></a>
-                                <ul class="dropdown-menu multi-column columns-3">
-                                    <div class="row">
-                                        <div class="col-sm-3 multi-gd-img">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="Knowledge.jsp">太阳镜</a></li>
-                                                <li><a href="Knowledge.jsp">太阳镜</a></li>
-                                                <li><a href="Knowledge.jsp">学生镜</a></li>
-                                                <li><a href="Knowledge.jsp">墨镜</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3 multi-gd-img">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="Knowledge.jsp">Jewellery</a></li>
-                                                <li><a href="Knowledge.jsp">Sunglasses</a></li>
-                                                <li><a href="Knowledge.jsp">Perfumes</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-6 multi-gd-img multi-gd-text ">
-                                            <a href="Knowledge.jsp"><img src="images/woo.jpg" alt=" "/></a>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li class=" menu__item"><a class="menu__link" href="Member.jsp">会员</a></li>
-                            <li class=" menu__item"><a class="menu__link" href="TeamInfo.jsp">团队介绍</a></li>
+                            <li class=" menu__item"><a class="menu__link" href="TeamInfo.jsp">知识百科</a></li>
                             <li class=" menu__item"><a class="menu__link" href="Order.jsp">晒单评论</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
-        <div class="top_nav_right">
+      <%--  <div class="top_nav_right">
             <div class="cart box_1">
                 <a href="Checkout.jsp">
                     <h3> <div class="total">
@@ -156,7 +151,7 @@
                 <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
 
             </div>
-        </div>
+        </div>--%>
         <div class="clearfix"></div>
     </div>
 </div>
