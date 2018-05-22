@@ -53,11 +53,11 @@
                         </div>
                         <%----%>
                         <div class="col-md-4 sign-gd flickr-post">
-                            <h4>软件下载</h4>
+                            <h4>微信购买</h4>
                             <div>
                                 <!--软件下载-->
                                 <div class = "android-do"><a href=""><img src="images/ww.png"  height="100px" width="100px"  class="android-do-a"></a>
-                                    <h6>安卓</h6>
+                                    <h6>微信购买</h6>
                                 </div>
 
                             </div>

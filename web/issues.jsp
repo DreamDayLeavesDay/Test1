@@ -45,7 +45,7 @@
 <body>
 <jsp:include page="Header.jsp"></jsp:include>
 <%--快递--%>
-<jsp:include page="OrderBody.jsp"></jsp:include>
+<jsp:include page="issuesBody.jsp"></jsp:include>
 <%--快递--%>
 <jsp:include page="Footer.jsp"></jsp:include>
 <jsp:include page="Login.jsp"></jsp:include>

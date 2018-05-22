@@ -922,10 +922,10 @@ position:relative;
     width: 33.334%;
 }
 .content-img-right {
-    padding: 104px 50px 0px;
+    padding: 20px 50px 0px;
     background:#e0e0e0c4;
     text-transform: uppercase;
-	min-height:343px;
+	min-height:250px;
 }
 /* CSS3 Hover Effects */
 .img-box, .info-box {

@@ -82,7 +82,6 @@
                 <!--查找的时候在修改值-->
                 <div class="section_room">
                     <select id="country" onchange="change_country(this.value)" class="frm-field required">
-                        <option value="null">老花镜</option>
                         <option value="null">太阳镜</option>
                         <option value="null">近视镜</option>
                         <option value="null">镜框</option>
@@ -133,7 +132,7 @@
                                 <a class="menu__link" href="Mens.jsp">新品上市</a>
                             </li>
                             <li class=" menu__item"><a class="menu__link" href="TeamInfo.jsp">知识百科</a></li>
-                            <li class=" menu__item"><a class="menu__link" href="Order.jsp">晒单评论</a></li>
+                            <li class=" menu__item"><a class="menu__link" href="issues.jsp">晒单评论</a></li>
                         </ul>
                     </div>
                 </div>
