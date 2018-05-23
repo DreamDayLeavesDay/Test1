@@ -1,505 +1,307 @@
 <%--
   Created by IntelliJ IDEA.
-  User: 纷呈
+  User: xiaoyi
   Date: 2018/5/16
-  Time: 10:05
+  Time: 10:47
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>眼镜百科</title>
+
+    <style>
+        body{
+            color: black;
+        }
+        div {
+            display: block;
+        }
+        a{
+            color: black!important;
+            text-decoration: none!important;
+        }
+    </style>
+
 </head>
 <body>
-<!-- banner -->
-<div class="page-head">
-    <div class="container">
-        <h3>Women's Wear</h3>
-    </div>
-</div>
-<!-- //banner -->
-<!-- KnowledgeBody -->
-<div class="men-wear">
-    <div class="container">
-        <div class="col-md-4 products-left">
-            <div class="filter-price">
-                <h3>Filter By Price</h3>
-                <ul class="dropdown-menu6">
-                    <li>
-                        <div id="slider-range"></div>
-                        <input type="text" id="amount" style="border: 0; color: #ffffff; font-weight: normal;" />
-                    </li>
-                </ul>
-                <!---->
-                <script type='text/javascript'>//<![CDATA[
-                $(window).load(function(){
-                    $( "#slider-range" ).slider({
-                        range: true,
-                        min: 0,
-                        max: 9000,
-                        values: [ 1000, 7000 ],
-                        slide: function( event, ui ) {  $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-                        }
-                    });
-                    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
-
-                });//]]>
-
-                </script>
-                <script type="text/javascript" src="js/jquery-ui.js"></script>
-                <!---->
-            </div>
-            <div class="css-treeview">
-                <h4>Categories</h4>
-                <ul class="tree-list-pad">
-                    <li><input type="checkbox" checked="checked" id="item-0" /><label for="item-0"><span></span>Women's Wear</label>
-                        <ul>
-                            <li><input type="checkbox" id="item-0-0" /><label for="item-0-0">Ethinic Wear</label>
+<div class="">
+    <div class="container pb10">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="myLeftMenuC">
+                    <div class=" closeBtnButtom"><a>x&nbsp;&nbsp;&nbsp;</a></div>
+                    <div class="myLeftMenuC-heading "><h3>眼镜学堂</h3></div>
+                    <div class="myLeftMenuC-body">
+                        <ul id="leftmenuHightL">
+                            <li>
+                                <!--不存在下级菜单--->
+                                <a text-decoration: none class="leftbg" href="Knowledge.jsp" target="_blank" color="#000" >眼镜资讯</a>
                                 <ul>
-                                    <li><a href="womens.html">Sarees</a></li>
-                                    <li><a href="womens.html">Chudidars</a></li>
-                                    <li><a href="womens.html">Wedges</a></li>
-                                    <li><a href="womens.html">Tops</a></li>
-                                    <li><a href="womens.html">Perfumes</a></li>
-                                    <li><a href="womens.html">Caps</a></li>
                                 </ul>
                             </li>
-                            <li><input type="checkbox"  id="item-0-1" /><label for="item-0-1">Party Wear</label>
+                            <li>
+                                <!--不存在下级菜单--->
+                                <a class="leftbg" href="Knowledge.jsp" target="_blank">配镜顾问</a>
                                 <ul>
-                                    <li><a href="womens.html">Sarees</a></li>
-                                    <li><a href="womens.html">Chudidars</a></li>
-                                    <li><a href="womens.html">Wedges</a></li>
-                                    <li><a href="womens.html">Tops</a></li>
-                                    <li><a href="womens.html">Perfumes</a></li>
-                                    <li><a href="womens.html">Caps</a></li>
                                 </ul>
                             </li>
-                            <li><input type="checkbox"  id="item-0-2" /><label for="item-0-2">Casual Wear</label>
+                            <li>
+                                <!--不存在下级菜单--->
+                                <a class="leftbg" href="Knowledge.jsp" target="_blank">眼睛与视力</a>
                                 <ul>
-                                    <li><a href="womens.html">Sarees</a></li>
-                                    <li><a href="womens.html">Chudidars</a></li>
-                                    <li><a href="womens.html">Wedges</a></li>
-                                    <li><a href="womens.html">Tops</a></li>
-                                    <li><a href="womens.html">Perfumes</a></li>
-                                    <li><a href="womens.html">Caps</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><input type="checkbox" id="item-1" checked="checked" /><label for="item-1">Best Collections</label>
-                        <ul>
-                            <li><input type="checkbox" checked="checked" id="item-1-0" /><label for="item-1-0">New Arrivals</label>
-                                <ul>
-
-                                    <li><a href="womens.html">Wedges</a></li>
-                                    <li><a href="womens.html">Tops</a></li>
-                                    <li><a href="womens.html">Perfumes</a></li>
-                                    <li><a href="womens.html">Caps</a></li>
                                 </ul>
                             </li>
 
                         </ul>
-                    </li>
-                    <li><input type="checkbox" checked="checked" id="item-2" /><label for="item-2">Best Offers</label>
-                        <ul>
-                            <li><input type="checkbox"  id="item-2-0" /><label for="item-2-0">Summer Discount Sales</label>
-                                <ul>
-                                    <li><a href="womens.html">Wedges</a></li>
-                                    <li><a href="womens.html">Tops</a></li>
-                                    <li><a href="womens.html">Perfumes</a></li>
-                                    <li><a href="womens.html">Caps</a></li>
-                                </ul>
-                            </li>
-                            <li><input type="checkbox" id="item-2-1" /><label for="item-2-1">Exciting Offers</label>
-                                <ul>
-                                    <li><a href="womens.html">Wedges</a></li>
-                                    <li><a href="womens.html">Tops</a></li>
-                                    <li><a href="womens.html">Perfumes</a></li>
-                                    <li><a href="womens.html">Caps</a></li>
-                                </ul>
-                            </li>
-                            <li><input type="checkbox" id="item-2-2" /><label for="item-2-2">Flat Discounts</label>
-                                <ul>
-                                    <li><a href="womens.html">Wedges</a></li>
-                                    <li><a href="womens.html">Tops</a></li>
-                                    <li><a href="womens.html">Perfumes</a></li>
-                                    <li><a href="womens.html">Caps</a></li>
-                                </ul>
-                            </li>
+                    </div>
+                </div>
+                <div class="leftPicBottom panel panel-default">
+
+                    <div class="panel-body">
+                        <div class="toBig"><a href="Knowledge.jsp">
+                            <img class="img-responsive" src="http://www.louisdior.com/upload/201503/16/201503161619384492.jpg" alt="加盟动态">
+                        </a>
+                            <div>
+                                <h3>加盟动态</h3>
+                            </div>
+                        </div>
+                        <h3 style="color: #9B4B05;" class="text-center">加盟动态</h3>
+
+                        <ul class="noticeUl myTitleUl myFontSize">
+
+                            <li><a href="Knowledge.jsp" title="云集全球顶尖大牌，微炫北京市场又添高端旗舰店！">云集全球顶尖大牌，微炫…</a></li>
+
+                            <li><a href="Knowledge.jsp" title="培育优秀加盟商，成就微炫（中国）辉煌新篇章">培育优秀加盟商，成就路易迪…</a></li>
+
+                            <li><a href="Knowledge.jsp" title="LouisDior国际快时尚眼镜进驻福建浦城，引领眼镜新风尚！">LouisDior国际快时尚眼镜进…</a></li>
+
+                            <li><a href="Knowledge.jsp" title="微炫国际快时尚眼镜进军北京地铁商业，宋家庄枢纽店筹备中！">微炫国际快时尚眼镜进军…</a></li>
+
+                            <li><a href="Knowledge.jsp" title="廊坊市场第二家微炫特许眼镜加盟连锁店在京签约！">廊坊市场第二家微炫特许…</a></li>
+
+                            <li><a href="Knowledge.jsp" title="微炫保定市场第二家特许眼镜加盟店在京签约！">微炫保定市场第二家特许…</a></li>
+
                         </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="community-poll">
-                <h4>Community Poll</h4>
-                <div class="swit form">
-                    <form>
-                        <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio" checked=""><i></i>More convenient for shipping and delivery</label> </div></div>
-                        <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio"><i></i>Lower Price</label> </div></div>
-                        <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio"><i></i>Track your item</label> </div></div>
-                        <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio"><i></i>Bigger Choice</label> </div></div>
-                        <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio"><i></i>More colors to choose</label> </div></div>
-                        <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio"><i></i>Secured Payment</label> </div></div>
-                        <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio"><i></i>Money back guaranteed</label> </div></div>
-                        <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio"><i></i>Others</label> </div></div>
-                        <input type="submit" value="SEND">
-                    </form>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="col-md-8 products-right">
-            <h5>Product Compare(0)</h5>
-            <div class="sort-grid">
-                <div class="sorting">
-                    <h6>Sort By</h6>
-                    <select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
-                        <option value="null">Default</option>
-                        <option value="null">Name(A - Z)</option>
-                        <option value="null">Name(Z - A)</option>
-                        <option value="null">Price(High - Low)</option>
-                        <option value="null">Price(Low - High)</option>
-                        <option value="null">Model(A - Z)</option>
-                        <option value="null">Model(Z - A)</option>
-                    </select>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="sorting">
-                    <h6>Showing</h6>
-                    <select id="country2" onchange="change_country(this.value)" class="frm-field required sect">
-                        <option value="null">7</option>
-                        <option value="null">14</option>
-                        <option value="null">28</option>
-                        <option value="null">35</option>
-                    </select>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="men-wear-top">
-                <script src="js/responsiveslides.min.js"></script>
-                <script>
-                    // You can also use "$(window).load(function() {"
-                    $(function () {
-                        // Slideshow 4
-                        $("#slider3").responsiveSlides({
-                            auto: true,
-                            pager: true,
-                            nav: false,
-                            speed: 500,
-                            namespace: "callbacks",
-                            before: function () {
-                                $('.events').append("<li>before event fired.</li>");
-                            },
-                            after: function () {
-                                $('.events').append("<li>after event fired.</li>");
-                            }
-                        });
-                    });
-                </script>
-                <div  id="top" class="callbacks_container">
-                    <ul class="rslides" id="slider3">
-                        <li>
-                            <img class="img-responsive" src="images/men21.jpg" alt=" "/>
-                        </li>
-                        <li>
-                            <img class="img-responsive" src="images/men11.jpg" alt=" "/>
-                        </li>
-                        <li>
-                            <img class="img-responsive" src="images/men21.jpg" alt=" "/>
-                        </li>
-                        <li>
-                            <img class="img-responsive" src="images/men11.jpg" alt=" "/>
-                        </li>
+                    </div>
 
-                    </ul>
                 </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="men-wear-bottom">
-                <div class="col-sm-4 men-wear-left">
-                    <img class="img-responsive" src="images/men31.jpg" alt=" " />
-                </div>
-                <div class="col-sm-8 men-wear-right">
-                    <h4>Exclusive Women's Collections</h4>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-                        ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                        odit aut fugit. </p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="col-md-4 product-men no-pad-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                    <div class="men-thumb-item">
-                        <img src="images/a1.png" alt="" class="pro-image-front">
-                        <img src="images/a1.png" alt="" class="pro-image-back">
-                        <div class="men-cart-pro">
-                            <div class="inner-men-cart-pro">
-                                <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
+                <div class="leftPicBottom panel panel-default">
+
+                    <div class="panel-body">
+                        <div class="toBig"><a href="Knowledge.jsp" title="中国门店">
+                            <img class="img-responsive" src="http://www.louisdior.com/upload/201507/03/201507031100571357.jpg" alt="中国门店">
+                        </a>
+                            <div>
+                                <h3><a style="color: #9B4B05;" href="Knowledge.jsp" title="中国门店">中国门店</a></h3>
                             </div>
                         </div>
-                        <span class="product-new-top">New</span>
+                        <h3 style="color: #9B4B05;" class="text-center"><a style="color: #9B4B05;" href="Knowledge.jsp" title="中国门店">中国门店</a></h3>
 
                     </div>
-                    <div class="item-info-product ">
-                        <h4><a href="Single.jsp">T shirt</a></h4>
-                        <div class="info-product-price">
-                            <span class="item_price">$45.99</span>
-                            <del>$69.71</del>
-                        </div>
-                        <a href="#" class="item_add single-item hvr-outline-out button2">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 product-men no-pad-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                    <div class="men-thumb-item">
-                        <img src="images/w1.png" alt="" class="pro-image-front">
-                        <img src="images/w1.png" alt="" class="pro-image-back">
-                        <div class="men-cart-pro">
-                            <div class="inner-men-cart-pro">
-                                <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
+
+                    <div class="panel-body">
+                        <div class="toBig"><a href="Knowledge.jsp" title="在线留言">
+                            <img class="img-responsive" src="http://www.louisdior.com/upload/201507/02/201507021841290517.jpg" alt="在线留言">
+                        </a>
+                            <div>
+                                <h3><a style="color: #9B4B05;" href="Knowledge.jsp" title="在线留言">在线留言</a></h3>
                             </div>
                         </div>
-                        <span class="product-new-top">New</span>
+                        <h3 style="color: #9B4B05;" class="text-center"><a style="color: #9B4B05;" href="Knowledge.jsp" title="在线留言">在线留言</a></h3>
 
                     </div>
-                    <div class="item-info-product ">
-                        <h4><a href="Single.jsp">Wedges</a></h4>
-                        <div class="info-product-price">
-                            <span class="item_price">$45.99</span>
-                            <del>$69.71</del>
-                        </div>
-                        <a href="#" class="item_add single-item hvr-outline-out button2">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 product-men no-pad-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                    <div class="men-thumb-item">
-                        <img src="images/w3.png" alt="" class="pro-image-front">
-                        <img src="images/w3.png" alt="" class="pro-image-back">
-                        <div class="men-cart-pro">
-                            <div class="inner-men-cart-pro">
-                                <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
-                            </div>
-                        </div>
-                        <span class="product-new-top">New</span>
 
-                    </div>
-                    <div class="item-info-product ">
-                        <h4><a href="Single.jsp">Hand Bag</a></h4>
-                        <div class="info-product-price">
-                            <span class="item_price">$45.99</span>
-                            <del>$69.71</del>
-                        </div>
-                        <a href="#" class="item_add single-item hvr-outline-out button2">Add to cart</a>
-                    </div>
                 </div>
+
+
+
             </div>
 
-            <div class="clearfix"></div>
-        </div>
-        <div class="clearfix"></div>
-        <div class="single-pro">
-            <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                    <div class="men-thumb-item">
-                        <img src="images/w4.png" alt="" class="pro-image-front">
-                        <img src="images/w4.png" alt="" class="pro-image-back">
-                        <div class="men-cart-pro">
-                            <div class="inner-men-cart-pro">
-                                <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
-                            </div>
-                        </div>
-                        <span class="product-new-top">New</span>
-                    </div>
-                    <div class="item-info-product ">
-                        <h4><a href="Single.jsp">Hand Bag</a></h4>
-                        <div class="info-product-price">
-                            <span class="item_price">$45.99</span>
-                            <del>$69.71</del>
-                        </div>
-                        <a href="#" class="item_add single-item hvr-outline-out button2">Add to cart</a>
-                    </div>
-                </div>
-            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9">
+                <div class="kt-content">
+                    <ol class="breadcrumb">
 
-            <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                    <div class="men-thumb-item">
-                        <img src="images/w2.png" alt="" class="pro-image-front">
-                        <img src="images/w2.png" alt="" class="pro-image-back">
-                        <div class="men-cart-pro">
-                            <div class="inner-men-cart-pro">
-                                <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
-                            </div>
-                        </div>
-                        <span class="product-new-top">New</span>
-                    </div>
-                    <div class="item-info-product ">
-                        <h4><a href="Single.jsp">Sandals</a></h4>
-                        <div class="info-product-price">
-                            <span class="item_price">$45.99</span>
-                            <del>$69.71</del>
-                        </div>
-                        <a href="#" class="item_add single-item hvr-outline-out button2">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                    <div class="men-thumb-item">
-                        <img src="images/ep3.png" alt="" class="pro-image-front">
-                        <img src="images/ep3.png" alt="" class="pro-image-back">
-                        <div class="men-cart-pro">
-                            <div class="inner-men-cart-pro">
-                                <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
-                            </div>
-                        </div>
-                        <span class="product-new-top">New</span>
-                    </div>
-                    <div class="item-info-product ">
-                        <h4><a href="Single.jsp">Watches</a></h4>
-                        <div class="info-product-price">
-                            <span class="item_price">$45.99</span>
-                            <del>$69.71</del>
-                        </div>
-                        <a href="#" class="item_add single-item hvr-outline-out button2">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                    <div class="men-thumb-item">
-                        <img src="images/a5.png" alt="" class="pro-image-front">
-                        <img src="images/a5.png" alt="" class="pro-image-back">
-                        <div class="men-cart-pro">
-                            <div class="inner-men-cart-pro">
-                                <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
-                            </div>
-                        </div>
-                        <span class="product-new-top">New</span>
-                    </div>
-                    <div class="item-info-product ">
-                        <h4><a href="Single.jsp">T shirts</a></h4>
-                        <div class="info-product-price">
-                            <span class="item_price">$45.99</span>
-                            <del>$69.71</del>
-                        </div>
-                        <a href="#" class="item_add single-item hvr-outline-out button2">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 product-men yes-marg">
-                <div class="men-pro-item simpleCart_shelfItem">
-                    <div class="men-thumb-item">
-                        <img src="images/g1.png" alt="" class="pro-image-front">
-                        <img src="images/g1.png" alt="" class="pro-image-back">
-                        <div class="men-cart-pro">
-                            <div class="inner-men-cart-pro">
-                                <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
-                            </div>
-                        </div>
-                        <span class="product-new-top">New</span>
+                        <li>您所在位置：</li>
+                        <li> <a href="index.jsp">首页 </a></li>
+                        &nbsp;&gt;&nbsp;<a href="Knowledge.jsp">眼镜学堂</a>
+                    </ol>
+                    <div class="panel panel-default">
 
-                    </div>
-                    <div class="item-info-product ">
-                        <h4><a href="Single.jsp">Dresses</a></h4>
-                        <div class="info-product-price">
-                            <span class="item_price">$45.99</span>
-                            <del>$69.71</del>
-                        </div>
-                        <a href="#" class="item_add single-item hvr-outline-out button2">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 product-men yes-marg">
-                <div class="men-pro-item simpleCart_shelfItem">
-                    <div class="men-thumb-item">
-                        <img src="images/a6.png" alt="" class="pro-image-front">
-                        <img src="images/a6.png" alt="" class="pro-image-back">
-                        <div class="men-cart-pro">
-                            <div class="inner-men-cart-pro">
-                                <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
-                            </div>
-                        </div>
-                        <span class="product-new-top">New</span>
+                        <h3 class="text-right mr5p Afwbder">眼镜学堂</h3>
 
-                    </div>
-                    <div class="item-info-product ">
-                        <h4><a href="Single.jsp">Air Tshirt Black </a></h4>
-                        <div class="info-product-price">
-                            <span class="item_price">$129.99</span>
-                            <del>$150.71</del>
-                        </div>
-                        <a href="#" class="item_add single-item hvr-outline-out button2">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 product-men yes-marg">
-                <div class="men-pro-item simpleCart_shelfItem">
-                    <div class="men-thumb-item">
-                        <img src="images/a7.png" alt="" class="pro-image-front">
-                        <img src="images/a7.png" alt="" class="pro-image-back">
-                        <div class="men-cart-pro">
-                            <div class="inner-men-cart-pro">
-                                <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
-                            </div>
-                        </div>
-                        <span class="product-new-top">New</span>
+                        <div class="panel-body ">
 
-                    </div>
-                    <div class="item-info-product ">
-                        <h4><a href="Single.jsp">Dresses</a></h4>
-                        <div class="info-product-price">
-                            <span class="item_price">$129.99</span>
-                            <del>$150.71</del>
-                        </div>
-                        <a href="#" class="item_add single-item hvr-outline-out button2">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 product-men yes-marg">
-                <div class="men-pro-item simpleCart_shelfItem">
-                    <div class="men-thumb-item">
-                        <img src="images/a3.png" alt="" class="pro-image-front">
-                        <img src="images/a3.png" alt="" class="pro-image-back">
-                        <div class="men-cart-pro">
-                            <div class="inner-men-cart-pro">
-                                <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
-                            </div>
-                        </div>
-                        <span class="product-new-top">New</span>
 
-                    </div>
-                    <div class="item-info-product ">
-                        <h4><a href="Single.jsp">Air Tshirt Black </a></h4>
-                        <div class="info-product-price">
-                            <span class="item_price">$119.99</span>
-                            <del>$120.71</del>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="borderBGolden1 clearfix ptb20">
+                                    <div class="col-lg-8 col-md-8 col-sm-8">
+                                        <h4><a href="Knowledge.jsp">这款眼镜，在微炫热卖到“爆”！</a></h4>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;微炫眼镜在国内的高端门店，是顶级时尚品牌Christian Dior的眼镜产品线在中国市场的授权零售店面，双方携手合作以来，Dior太阳眼镜的店面零售，在2014年春夏正式推出So Real系列后，才真正的大步前进到畅销热榜的前列。</p>
+                                        <p><a class="btn btn-warning" href="Knowledge.jsp" target="_blank">查看详细..</a></p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                        <div class="toBig"><a href="Knowledge.jsp" title="这款眼镜，在微炫热卖到“爆”！" target="_blank">
+                                            <img src="http://www.louisdior.com/upload/201608/17/201608171805580740.jpg" alt="这款眼镜，在微炫热卖到“爆”！"></a>
+                                            <div>
+                                                <h3><a href="Knowledge.jsp" class="AcolorGolden1">查看详细..</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="borderBGolden1 clearfix ptb20">
+                                    <div class="col-lg-8 col-md-8 col-sm-8">
+                                        <h4><a href="Knowledge.jsp">微炫携手萧邦，钻石光芒致敬勇敢闪耀的您</a></h4>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chopard（萧邦），始于1860年的瑞士高级珠宝、腕表、眼镜品牌，是微炫在中国市场合作的全球80余个眼镜奢侈品牌、眼镜时尚品牌中，拥有独一无二美丽的殿堂级奢侈眼镜品牌之一。萧邦HAPPY DIAMONDS系列，欢迎莅临鉴赏</p>
+                                        <p><a class="btn btn-warning" href="Knowledge.jsp" target="_blank">查看详细..</a></p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                        <div class="toBig"><a href="Knowledge.jsp" title="微炫携手萧邦，钻石光芒致敬勇敢闪耀的您" target="_blank">
+                                            <img src="http://www.louisdior.com/upload/201607/28/201607282109459375.jpg" alt="微炫携手萧邦，钻石光芒致敬勇敢闪耀的您"></a>
+                                            <div>
+                                                <h3><a href="Knowledge.jsp" class="AcolorGolden1">查看详细..</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="borderBGolden1 clearfix ptb20">
+                                    <div class="col-lg-8 col-md-8 col-sm-8">
+                                        <h4><a href="Knowledge.jsp">只要有情怀，微炫给您最美的MiuMiu</a></h4>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MiuMiu，Prada集团的第二大品牌，国际眼镜连锁微炫在中国市场授权合作的众多国际时尚大牌之一，今天，我们就和微炫的眼镜造型师一起，领略下这个极具个性化和少女情怀的时尚眼镜品牌，以及她备受时尚界达人追捧的六大系列太阳镜产品。</p>
+                                        <p><a class="btn btn-warning" href="Knowledge.jsp" target="_blank">查看详细..</a></p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                        <div class="toBig"><a href="Knowledge.jsp" title="只要有情怀，微炫给您最美的MiuMiu" target="_blank">
+                                            <img src="http://www.louisdior.com/upload/201605/13/201605131833320000.jpg" alt="只要有情怀，微炫给您最美的MiuMiu"></a>
+                                            <div>
+                                                <h3><a href="Knowledge.jsp" class="AcolorGolden1">查看详细..</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="borderBGolden1 clearfix ptb20">
+                                    <div class="col-lg-8 col-md-8 col-sm-8">
+                                        <h4><a href="Knowledge.jsp">3D眼镜也不能随便戴？</a></h4>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;近年来，3D电影的逼真视觉体验吸引了越来越多的观众。人们在付出比2D电影高几倍的价格，享受强烈视听冲击力的同时，却经常会感觉头晕头痛，眼睛酸痛疲劳，长时间佩戴3D眼镜会产生视力下降、头晕、视线模糊等症状</p>
+                                        <p><a class="btn btn-warning" href="Knowledge.jsp" target="_blank">查看详细..</a></p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                        <div class="toBig"><a href="Knowledge.jsp" title="3D眼镜也不能随便戴？" target="_blank">
+                                            <img src="http://www.louisdior.com/upload/201603/04/201603041626034355.jpg" alt="3D眼镜也不能随便戴？"></a>
+                                            <div>
+                                                <h3><a href="Knowledge.jsp" class="AcolorGolden1">查看详细..</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="borderBGolden1 clearfix ptb20">
+                                    <div class="col-lg-8 col-md-8 col-sm-8">
+                                        <h4><a href="Knowledge.jsp">法国眼镜品牌EOS携春夏新品太阳镜中国亮相</a></h4>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;法国眼镜品牌EOS对2016年眼镜潮流的预测表明，今年夏季除了延续绚烂的色彩风之外，沉稳干练将成为主流风格。超轻金属材质也将在市场上受到热捧。此次展会EOS携14个款式60种单品亮相， “内外兼修”是EOS产品设计的核心</p>
+                                        <p><a class="btn btn-warning" href="Knowledge.jsp" target="_blank">查看详细..</a></p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                        <div class="toBig"><a href="Knowledge.jsp" title="法国眼镜品牌EOS携春夏新品太阳镜中国亮相" target="_blank">
+                                            <img src="http://www.louisdior.com/upload/201603/04/201603041005131393.jpg" alt="法国眼镜品牌EOS携春夏新品太阳镜中国亮相"></a>
+                                            <div>
+                                                <h3><a href="Knowledge.jsp" class="AcolorGolden1">查看详细..</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="borderBGolden1 clearfix ptb20">
+                                    <div class="col-lg-8 col-md-8 col-sm-8">
+                                        <h4><a href="Knowledge.jsp">高折射率镜片与普通眼镜片有什么区别？</a></h4>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高折射率镜片采用特殊的加工工艺。厚度比普通的眼镜片薄。配带超薄镜片可以帮高度近视遗者减轻眼镜的重量。虽然超薄镜片比普通镜片薄但它仍不能突破镜片加工工艺的极限。一般来说超薄镜片可以比相同度数的镜片薄1/4倍。</p>
+                                        <p><a class="btn btn-warning" href="Knowledge.jsp" target="_blank">查看详细..</a></p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                        <div class="toBig"><a href="Knowledge.jsp" title="高折射率镜片与普通眼镜片有什么区别？" target="_blank">
+                                            <img src="http://www.louisdior.com/upload/201602/24/201602241403545017.jpg" alt="高折射率镜片与普通眼镜片有什么区别？"></a>
+                                            <div>
+                                                <h3><a href="Knowledge.jsp" class="AcolorGolden1">查看详细..</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="borderBGolden1 clearfix ptb20">
+                                    <div class="col-lg-8 col-md-8 col-sm-8">
+                                        <h4><a href="Knowledge.jsp">Bottega Veneta推出全新Felis系列太阳眼镜</a></h4>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bottega Veneta(葆蝶家)推出全新Felis系列猫眼造型太阳眼镜，创意总监Tomas Maier将编织元素不断融入眼镜系列的设计中，Bottega Veneta的工匠大师将最上乘的板材打造成眼镜镜框，在上面呈现出标志性的皮革编织元素。</p>
+                                        <p><a class="btn btn-warning" href="Knowledge.jsp" target="_blank">查看详细..</a></p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                        <div class="toBig"><a href="Knowledge.jsp" title="Bottega Veneta推出全新Felis系列太阳眼镜" target="_blank">
+                                            <img src="http://www.louisdior.com/upload/201602/22/201602221043444811.jpg" alt="Bottega Veneta推出全新Felis系列太阳眼镜"></a>
+                                            <div>
+                                                <h3><a href="Knowledge.jsp" class="AcolorGolden1">查看详细..</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
                         </div>
-                        <a href="#" class="item_add single-item hvr-outline-out button2">Add to cart</a>
+                        <div class="panel-footer clearfix">
+                            <div id="PageContent" class="grayr center"><span class="disabled">«上一页</span><span class="current">1</span><a href="/article_list.aspx?category_id=79&amp;page=2&amp;channel_id=1">2</a><a href="/article_list.aspx?category_id=79&amp;page=3&amp;channel_id=1">3</a><a href="/article_list.aspx?category_id=79&amp;page=4&amp;channel_id=1">4</a><span>...</span><a href="/article_list.aspx?category_id=79&amp;page=33&amp;channel_id=1">33</a><a href="/article_list.aspx?category_id=79&amp;page=2&amp;channel_id=1">下一页»&nbsp;更多...</a></div>
+
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="pagination-grid text-right">
-            <ul class="pagination paging">
-                <li><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-                <li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-            </ul>
         </div>
     </div>
 </div>
-<!-- //KnowledgeBody -->
 </body>
 </html>
