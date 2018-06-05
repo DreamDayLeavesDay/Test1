@@ -347,13 +347,7 @@ navbar-collapse{display: none;}
 }
 
 ul,menu,dir{
-    display: block;
-    list-style-type: dist;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
+
 }
 a:-webkit-any-link{
     cursor: pointer;

@@ -45,18 +45,18 @@
 </head>
 <body>
 <%--头部--%>
-<jsp:include page="Header.jsp"></jsp:include>
+<jsp:include page="Front/Header.jsp"></jsp:include>
 <%--头部--%>
 <%--homeBody--%>
-<jsp:include page="HomeBody.jsp"></jsp:include>
+<jsp:include page="Front/HomeBody.jsp"></jsp:include>
 <%--homeBody--%>
 <!-- //footer -->
-<jsp:include page="Footer.jsp"></jsp:include>
+<jsp:include page="Front/Footer.jsp"></jsp:include>
 <!-- login -->
-<jsp:include page="Login.jsp"></jsp:include>
+<jsp:include page="Front/Login.jsp"></jsp:include>
 <!-- //login -->
 <%--返回顶部--%>
-<jsp:include page="BackToTop.jsp"></jsp:include>
+<jsp:include page="Front/BackToTop.jsp"></jsp:include>
 <%--返回顶部--%>
 </body>
 </html>
