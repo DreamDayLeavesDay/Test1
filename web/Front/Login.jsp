@@ -78,8 +78,8 @@
                         <%--qq微信快捷登陆--%>
                         <div class="login-quick">
                             <span style="float: left">快捷登陆</span>
-                            <span><div class = "qq"><img src = "../images/QQ.png" style = "width:30px;height:30px"  ></div>
-              <div class = "weixin"><img src = "../images/weixin.png" style = "width:30px;height:30px"></div></span>
+                            <span><div class = "qq"><img src = "images/QQ.png" style = "width:30px;height:30px"  ></div>
+              <div class = "weixin"><img src = "images/weixin.png" style = "width:30px;height:30px"></div></span>
                         </div>
                         <%--//qq微信快捷登陆--%>
                     </div>

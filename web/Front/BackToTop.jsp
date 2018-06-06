@@ -9,10 +9,10 @@
 <html>
 <head>
     <title>Back</title>
-    <script type="text/javascript" src="../js/global.js"></script>
-    <link rel="stylesheet" href="../DDLD_CSS/iconfont.css">
-    <link rel="stylesheet" href="../DDLD_CSS/global.css">
-    <link rel="stylesheet" href="../DDLD_CSS/styles.css">
+    <script type="text/javascript" src="js/global.js"></script>
+    <link rel="stylesheet" href="DDLD_CSS/iconfont.css">
+    <link rel="stylesheet" href="DDLD_CSS/global.css">
+    <link rel="stylesheet" href="DDLD_CSS/styles.css">
 </head>
 <body>
 

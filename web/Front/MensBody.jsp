@@ -22,7 +22,7 @@
         <div class="g-box-bd clearfix">
             <div class="goods-box-l">
                 <div class="top">
-                    <a href="http://www.loho88.com/topic/831.html" target="_blank" ga-type="PromotionClick" ga-creative="F1-Rect" ga-position="1" title="5F-zuo"><img src="../images/2018.jpg" alt="5F-zuo"></a>
+                    <a href="http://www.loho88.com/topic/831.html" target="_blank" ga-type="PromotionClick" ga-creative="F1-Rect" ga-position="1" title="5F-zuo"><img src="images/2018.jpg" alt="5F-zuo"></a>
                     <ul class="clearfix">
                         <li><a href="Mens.jsp" target="_blank" ga-type="PromotionClick" ga-creative="F1-Black" ga-position="1" ga-base="1" title="儿童眼镜">儿童眼镜</a></li>
                         <li><a href="Mens.jsp" target="_blank" ga-type="PromotionClick" ga-creative="F1-Black" ga-position="2" ga-base="1" title="学生眼镜">学生眼镜</a></li>
@@ -48,14 +48,14 @@
                 </div>
             </div>
             <div class="goods-box-m">
-                <a href="Mens.jsp" target="_blank" ga-type="PromotionClick" ga-creative="F1-Main" ga-position="1" title="1F-zhong2"><img alt="1F-zhong2" src="../images/sunglass.jpg"></a>
+                <a href="Mens.jsp" target="_blank" ga-type="PromotionClick" ga-creative="F1-Main" ga-position="1" title="1F-zhong2"><img alt="1F-zhong2" src="images/sunglass.jpg"></a>
             </div>
             <div class="goods-box-r">
                 <ul class="clearfix">
-                    <li><a href="Mens.jsp" target="_blank" ga-type="ProductClick" ga-price="" ga-position="1" ga-base="1" ga-dimension1="" ga-from="index>F1" ga-add="1"><img src="../images/glasses01.jpg" alt="1F-1"></a></li>
-                    <li><a href="Mens.jsp" target="_blank" ga-type="ProductClick" ga-price="" ga-position="2" ga-base="1" ga-dimension1="" ga-from="index>F1" ga-add="1"><img src="../images/glasses02.jpg" alt="1F-2"></a></li>
-                    <li><a href="Mens.jsp" target="_blank" ga-type="ProductClick" ga-price="" ga-position="3" ga-base="1" ga-dimension1="" ga-from="index>F1" ga-add="1"><img src="../images/glasses03.jpg" alt="1F-3"></a></li>
-                    <li><a href="Mens.jsp" target="_blank" ga-type="ProductClick" ga-price="" ga-position="4" ga-base="1" ga-dimension1="" ga-from="index>F1" ga-add="1"><img src="../images/glasses04.jpg" alt="1F-4"></a></li>
+                    <li><a href="Mens.jsp" target="_blank" ga-type="ProductClick" ga-price="" ga-position="1" ga-base="1" ga-dimension1="" ga-from="index>F1" ga-add="1"><img src="images/glasses01.jpg" alt="1F-1"></a></li>
+                    <li><a href="Mens.jsp" target="_blank" ga-type="ProductClick" ga-price="" ga-position="2" ga-base="1" ga-dimension1="" ga-from="index>F1" ga-add="1"><img src="images/glasses02.jpg" alt="1F-2"></a></li>
+                    <li><a href="Mens.jsp" target="_blank" ga-type="ProductClick" ga-price="" ga-position="3" ga-base="1" ga-dimension1="" ga-from="index>F1" ga-add="1"><img src="images/glasses03.jpg" alt="1F-3"></a></li>
+                    <li><a href="Mens.jsp" target="_blank" ga-type="ProductClick" ga-price="" ga-position="4" ga-base="1" ga-dimension1="" ga-from="index>F1" ga-add="1"><img src="images/glasses04.jpg" alt="1F-4"></a></li>
                 </ul>
             </div>
         </div>

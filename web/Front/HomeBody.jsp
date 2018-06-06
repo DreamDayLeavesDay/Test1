@@ -10,10 +10,10 @@
 <head>
     <title></title>
 
-    <link rel="stylesheet" type="text/css" href="../css/Ranking.css">
+    <link rel="stylesheet" type="text/css" href="css/Ranking.css">
 
-    <script type="text/javascript" src="../js/jquery.min.js"></script>
-    <script type="text/javascript" src="../js/j-accordin.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/j-accordin.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $('.accordion').jaccordion();
@@ -48,7 +48,7 @@
 
     <div class="col-sm-6 content-img-left text-center">
         <div class="content-grid-effect slow-zoom vertical">
-            <div class="img-box"><img src="../images/NewCenter1.jpg" alt="image" class="img-responsive zoom-img"></div>
+            <div class="img-box"><img src="images/NewCenter1.jpg" alt="image" class="img-responsive zoom-img"></div>
             <div class="info-box">
                 <div class="info-content simpleCart_shelfItem">
                     <h4>雷迪森</h4>
@@ -69,7 +69,7 @@
             <h3>买一赠一 <span> 活动</span> 暴龙</h3>
         </div>
         <div class="content-grid-effect slow-zoom vertical">
-            <div class="img-box"><img src="../images/NewCenter2.jpg" alt="image" class="img-responsive zoom-img"></div>
+            <div class="img-box"><img src="images/NewCenter2.jpg" alt="image" class="img-responsive zoom-img"></div>
             <div class="info-box">
                 <div class="info-content simpleCart_shelfItem">
                     <h4>暴龙</h4>
@@ -95,70 +95,70 @@
 
                     <div class="first current">
                         <div class="content">
-                            <img src="../images/old01.png" />
+                            <img src="images/old01.png" />
                             <div class="word" >
                                 <p>价格：<em style="color:#F00;"><strong>￥299</strong></em></p><br />
                                 <p><a href="#">RayBen雷朋太阳眼镜</a></p>
                             </div>
                         </div>
                         <div class="tab">
-                            <span><img src="../images/tea1.jpg" /></span>
+                            <span><img src="images/tea1.jpg" /></span>
                             <strong><a href="#" target="_blank">太阳眼镜</a></strong>
                         </div>
                     </div>
 
                     <div class="second">
                         <div class="content second">
-                            <a href="#" target="_blank"><img src="../images/student01.jpg" /></a>
+                            <a href="#" target="_blank"><img src="images/student01.jpg" /></a>
                             <div class="word" >
                                 <p>价格：<em style="color:#F00;"><strong>￥299</strong></em></p><br />
                                 <p><a href="#">金边眼镜</a></p>
                             </div>
                         </div>
                         <div class="tab">
-                            <span><img src="../images/tea2.jpg" /></span>
+                            <span><img src="images/tea2.jpg" /></span>
                             <strong><a href="#" target="_blank">学生镜</a></strong>
                         </div>
                     </div>
 
                     <div class="third">
                         <div class="content third">
-                            <a href="#" target="_blank"><img src="../images/student03.jpg" /></a>
+                            <a href="#" target="_blank"><img src="images/student03.jpg" /></a>
                             <div class="word" >
                                 <p>价格：<em style="color:#F00;"><strong>￥499</strong></em></p><br />
                                 <p><a href="#">圆框眼镜</a></p>
                             </div>
                         </div>
                         <div class="tab">
-                            <span><img src="../images/tea3.jpg" /></span>
+                            <span><img src="images/tea3.jpg" /></span>
                             <strong><a href="#" target="_blank">学生镜</a></strong>
                         </div>
                     </div>
 
                     <div class="four">
                         <div class="content four">
-                            <a href="#" target="_blank"><img src="../images/sunglass03.png" /></a>
+                            <a href="#" target="_blank"><img src="images/sunglass03.png" /></a>
                             <div class="word" >
                                 <p>价格：<em style="color:#F00;"><strong>￥399</strong></em></p><br />
                                 <p><a href="#">雷迪森太阳眼镜</a></p>
                             </div>
                         </div>
                         <div class="tab">
-                            <span><img src="../images/tea4.jpg" /></span>
+                            <span><img src="images/tea4.jpg" /></span>
                             <strong><a href="#" target="_blank">雷迪森太阳眼镜</a></strong>
                         </div>
                     </div>
 
                     <div class="file">
                         <div class="content file">
-                            <a href="#" target="_blank"><img src="../images/old04.jpg" /></a>
+                            <a href="#" target="_blank"><img src="images/old04.jpg" /></a>
                             <div class="word" >
                                 <p>价格：<em style="color:#F00;"><strong>￥199</strong></em></p><br />
                                 <p><a href="#">新品上市</a></p>
                             </div>
                         </div>
                         <div class="tab">
-                            <span><img src="../images/tea5.jpg" /></span>
+                            <span><img src="images/tea5.jpg" /></span>
                             <strong><a href="#" target="_blank">推荐眼镜</a></strong>
                         </div>
                     </div>
@@ -183,7 +183,7 @@
 <div class="product-easy">
     <div class="container">
 
-        <script src="../js/easyResponsiveTabs.js" type="text/javascript"></script>
+        <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
         <script type="text/javascript">
             $(document).ready(function () {
                 $('#horizontalTab').easyResponsiveTabs({
@@ -209,8 +209,8 @@
                         <div class="col-md-3 product-men">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/student01.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/student01.jpg" alt="" class="pro-image-back">
+                                    <img src="images/student01.jpg" alt="" class="pro-image-front">
+                                    <img src="images/student01.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <%--细节展示--%>
                                         <div class="inner-men-cart-pro">
@@ -239,8 +239,8 @@
                         <div class="col-md-3 product-men">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/student02.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/student02.jpg" alt="" class="pro-image-back">
+                                    <img src="images/student02.jpg" alt="" class="pro-image-front">
+                                    <img src="images/student02.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -262,8 +262,8 @@
                         <div class="col-md-3 product-men">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/student03.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/student03.jpg" alt="" class="pro-image-back">
+                                    <img src="images/student03.jpg" alt="" class="pro-image-front">
+                                    <img src="images/student03.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -285,8 +285,8 @@
                         <div class="col-md-3 product-men">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/student04.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/student04.jpg" alt="" class="pro-image-back">
+                                    <img src="images/student04.jpg" alt="" class="pro-image-front">
+                                    <img src="images/student04.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -308,8 +308,8 @@
                         <div class="col-md-3 product-men yes-marg">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/student06.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/student06.jpg" alt="" class="pro-image-back">
+                                    <img src="images/student06.jpg" alt="" class="pro-image-front">
+                                    <img src="images/student06.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -331,8 +331,8 @@
                         <div class="col-md-3 product-men yes-marg">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/student07.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/student07.jpg" alt="" class="pro-image-back">
+                                    <img src="images/student07.jpg" alt="" class="pro-image-front">
+                                    <img src="images/student07.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -355,8 +355,8 @@
                         <div class="col-md-3 product-men yes-marg">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/student08.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/student08.jpg" alt="" class="pro-image-back">
+                                    <img src="images/student08.jpg" alt="" class="pro-image-front">
+                                    <img src="images/student08.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -378,8 +378,8 @@
                         <div class="col-md-3 product-men yes-marg">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/student05.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/student05.jpg" alt="" class="pro-image-back">
+                                    <img src="images/student05.jpg" alt="" class="pro-image-front">
+                                    <img src="images/student05.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -406,8 +406,8 @@
                         <div class="col-md-3 product-men">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/sunglass01.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/sunglass01.jpg" alt="" class="pro-image-back">
+                                    <img src="images/sunglass01.jpg" alt="" class="pro-image-front">
+                                    <img src="images/sunglass01.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -430,8 +430,8 @@
                         <div class="col-md-3 product-men">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/sunglass02.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/sunglass02.jpg" alt="" class="pro-image-back">
+                                    <img src="images/sunglass02.jpg" alt="" class="pro-image-front">
+                                    <img src="images/sunglass02.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -453,8 +453,8 @@
                         <div class="col-md-3 product-men">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/sunglass03.png" alt="" class="pro-image-front">
-                                    <img src="../images/sunglass03.png" alt="" class="pro-image-back">
+                                    <img src="images/sunglass03.png" alt="" class="pro-image-front">
+                                    <img src="images/sunglass03.png" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -476,8 +476,8 @@
                         <div class="col-md-3 product-men">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/sunglass04.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/sunglass04.jpg" alt="" class="pro-image-back">
+                                    <img src="images/sunglass04.jpg" alt="" class="pro-image-front">
+                                    <img src="images/sunglass04.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -499,8 +499,8 @@
                         <div class="col-md-3 product-men yes-marg">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/sunglass05.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/sunglass05.jpg" alt="" class="pro-image-back">
+                                    <img src="images/sunglass05.jpg" alt="" class="pro-image-front">
+                                    <img src="images/sunglass05.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -522,8 +522,8 @@
                         <div class="col-md-3 product-men yes-marg">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/sunglass06.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/sunglass06.jpg" alt="" class="pro-image-back">
+                                    <img src="images/sunglass06.jpg" alt="" class="pro-image-front">
+                                    <img src="images/sunglass06.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -549,8 +549,8 @@
                         <div class="col-md-3 product-men" onclick="window.open('single.jsp')">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item">
-                                    <img src="../images/old01.png" alt="" class="pro-image-front">
-                                    <img src="../images/old01.png" alt="" class="pro-image-back">
+                                    <img src="images/old01.png" alt="" class="pro-image-front">
+                                    <img src="images/old01.png" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -572,8 +572,8 @@
                         <div class="col-md-3 product-men">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/old02.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/old02.jpg" alt="" class="pro-image-back">
+                                    <img src="images/old02.jpg" alt="" class="pro-image-front">
+                                    <img src="images/old02.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -595,8 +595,8 @@
                         <div class="col-md-3 product-men">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/old03.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/old03.jpg" alt="" class="pro-image-back">
+                                    <img src="images/old03.jpg" alt="" class="pro-image-front">
+                                    <img src="images/old03.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -618,8 +618,8 @@
                         <div class="col-md-3 product-men">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/old04.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/old04.jpg" alt="" class="pro-image-back">
+                                    <img src="images/old04.jpg" alt="" class="pro-image-front">
+                                    <img src="images/old04.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -641,8 +641,8 @@
                         <div class="col-md-3 product-men yes-marg">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/old05.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/old05.jpg" alt="" class="pro-image-back">
+                                    <img src="images/old05.jpg" alt="" class="pro-image-front">
+                                    <img src="images/old05.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>
@@ -664,8 +664,8 @@
                         <div class="col-md-3 product-men yes-marg">
                             <div class="men-pro-item simpleCart_shelfItem">
                                 <div class="men-thumb-item" onclick="window.open('single.jsp')">
-                                    <img src="../images/old06.jpg" alt="" class="pro-image-front">
-                                    <img src="../images/old06.jpg" alt="" class="pro-image-back">
+                                    <img src="images/old06.jpg" alt="" class="pro-image-front">
+                                    <img src="images/old06.jpg" alt="" class="pro-image-back">
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
                                             <a href="Single.jsp" class="link-product-add-cart">Quick View</a>

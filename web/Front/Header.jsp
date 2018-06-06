@@ -48,12 +48,11 @@
     </script>
     <style>
 
-        #dd{
-            float: left;
-        }
+
         .top-container{
             padding-left: 25%;
         }
+
     </style>
 
 </head>
@@ -62,9 +61,9 @@
 <div class="header">
     <div class="container">
         <ul>
-            <li><span class="glyphicon glyphicon-time" aria-hidden="true" id="dd"></span><div id="Date"></div></li>
-            <li><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>包邮</li>
-            <li> <span class="glyphicon glyphicon-earphone" aria-hidden="true" style="color:  #fda30e;"></span><a href="">138765612626</a></li>
+            <li><div id="Date"></div></li>
+            <li>包邮</li>
+            <li><a href="" style="color: #b78282;">138765612626</a></li>
         </ul>
     </div>
 </div>
@@ -73,7 +72,7 @@
 <div class="header-bot">
     <div class="container">
         <div class="col-md-3 header-left">
-            <h1><a href="../index.jsp"><img src="../images/logo.jpg"></a></h1>
+            <h1><a href="index.jsp"><img src="images/logo.jpg"></a></h1>
         </div>
         <div class="col-md-6 header-middle">
             <form>
@@ -128,12 +127,12 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav menu__list">
-                            <li class="active menu__item menu__item--current"><a class="menu__link" href="../index.jsp">主页 <span class="sr-only">(current)</span></a></li>
+                            <li class="active menu__item menu__item--current"><a class="menu__link" href="index.jsp">主页 <span class="sr-only">(current)</span></a></li>
                             <li class="dropdown menu__item">
-                                <a class="menu__link" href="../Front/Mens.jsp">新品上市</a>
+                                <a class="menu__link" href="Mens.jsp">新品上市</a>
                             </li>
-                            <li class=" menu__item"><a class="menu__link" href="../Front/TeamInfo.jsp">知识百科</a></li>
-                            <li class=" menu__item"><a class="menu__link" href="../Front/issues.jsp">晒单评论</a></li>
+                            <li class=" menu__item"><a class="menu__link" href="TeamInfo.jsp">知识百科</a></li>
+                            <li class=" menu__item"><a class="menu__link" href="issues.jsp">晒单评论</a></li>
                         </ul>
                     </div>
                 </div>

@@ -123,7 +123,7 @@
                     <ol class="breadcrumb">
 
                         <li>您所在位置：</li>
-                        <li> <a href="../index.jsp">首页 </a></li>
+                        <li> <a href="index.jsp">首页 </a></li>
                         &nbsp;&gt;&nbsp;<a href="Knowledge.jsp">眼镜学堂</a>
                     </ol>
                     <div class="panel panel-default">

@@ -41,10 +41,10 @@ $(document).ready(function() {
         var images_height = '560px';
         //图片路径/链接(数组形式):
         var images_url = [
-            '../images/Sun1.jpg',
-            '../images/Sun2.jpg',
-            '../images/Sun3.jpg',
-            '../images/Sun4.jpg'
+            './images/Sun1.jpg',
+            './images/Sun2.jpg',
+            './images/Sun3.jpg',
+            './images/Sun4.jpg'
         ];
         var images_count = images_url.length;
         //console.log(images_count);

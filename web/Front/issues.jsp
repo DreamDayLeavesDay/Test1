@@ -16,39 +16,39 @@
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
     function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //for-mobile-apps -->
-    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css">
-    <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!-- js -->
-    <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <!-- //js -->
     <!-- cart -->
-    <script src="../js/simpleCart.min.js"></script>
+    <script src="js/simpleCart.min.js"></script>
     <!-- cart -->
     <!-- for bootstrap working -->
-    <script type="text/javascript" src="../js/bootstrap-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
     <!-- //for bootstrap working -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
-    <script src="../js/jquery.easing.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
     <%--lin新加的--%>
-    <link href="../css/NewStyle.css" rel="stylesheet" type="text/css" media="all">
-    <script src="../js/jquery-1.11.0.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="../js/Newbootstrap.js"></script>
+    <link href="css/NewStyle.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/Newbootstrap.js"></script>
     <%--lin新加的--%>
 
     <%--OrderBody使用到的css--%>
-    <link href="../css/common.css" rel="stylesheet" type="text/css" media="all">
-    <link href="../css/commontDrying.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/common.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/commontDrying.css" rel="stylesheet" type="text/css" media="all">
 
 </head>
 <body>
-<jsp:include page="../Front/Header.jsp"></jsp:include>
+<jsp:include page="Header.jsp"></jsp:include>
 <%--评价--%>
-<jsp:include page="../Front/issuesBody.jsp"></jsp:include>
+<jsp:include page="issuesBody.jsp"></jsp:include>
 <%--评价--%>
-<jsp:include page="../Front/Footer.jsp"></jsp:include>
-<jsp:include page="../Front/Login.jsp"></jsp:include>
-<jsp:include page="../Front/BackToTop.jsp"></jsp:include>
+<jsp:include page="Footer.jsp"></jsp:include>
+<jsp:include page="Login.jsp"></jsp:include>
+<jsp:include page="BackToTop.jsp"></jsp:include>
 </body>
 </html>

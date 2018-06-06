@@ -56,7 +56,7 @@
                             <h4>微信购买</h4>
                             <div>
                                 <!--软件下载-->
-                                <div class = "android-do"><a href=""><img src="../images/ww.png" height="100px" width="100px" class="android-do-a"></a>
+                                <div class = "android-do"><a href=""><img src="images/ww.png" height="100px" width="100px" class="android-do-a"></a>
                                     <h6>微信购买</h6>
                                 </div>
 
