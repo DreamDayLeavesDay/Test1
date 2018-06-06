@@ -720,21 +720,8 @@ body {overflow-y: scroll}
 	line-height: 16px;
 }
 /* 路径导航 */
-.breadcrumb {
-	width: 100%;
-	height: 50px;
-	list-style: none;
-	margin-bottom: 0;
-	line-height: 50px;
-}
-.breadcrumb > li + li::before {
-    padding: 0 5px;
-    color: #666;
-    content: "\003E";
-}
-.breadcrumb > li { display: inline-block }
-.breadcrumb > li a {color: #333;text-decoration: none}
-.breadcrumb > .active {color: #b31e22}
+
+
 /* 商品详情 */
 .item-show__div > .pull-left {width: 1000px}
 .item-show__div > .pull-right {width: 200px}
